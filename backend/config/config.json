@@ -1,0 +1,16 @@
+{
+  "development": {
+    "dialect": "mysql",
+    "host": "127.0.0.1",
+    "username": "root",
+    "password": null,
+    "database": "melado"
+  },
+  "test": {
+    "dialect": "sqlite",
+    "storage": ":memory:"
+  },
+  "production": {
+    "use_env_variable": "CABECINHA"
+  }
+}
