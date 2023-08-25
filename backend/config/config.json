@@ -9,8 +9,5 @@
   "test": {
     "dialect": "sqlite",
     "storage": ":memory:"
-  },
-  "production": {
-    "use_env_variable": "CABECINHA"
   }
 }
