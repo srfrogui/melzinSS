@@ -5,7 +5,7 @@ const sequelize = new Sequelize({
   dialect: 'mysql', // Ou 'postgres' para PostgreSQL
   host: 'localhost',
   username: 'root',
-  password: 'null',
+  password: null,
   database: 'melado',
 });
 
