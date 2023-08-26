@@ -1,0 +1,43 @@
+/* Reset de margens e preenchimento padrão para o corpo da página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos para a âncora de navegação (links) */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Estilos para o conteúdo central */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+  }
+  
+  /* Estilos para cabeçalhos de página */
+  h1 {
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para texto geral */
+  p {
+    line-height: 1.5;
+  }
+  
